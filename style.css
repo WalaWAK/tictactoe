@@ -1,0 +1,58 @@
+ .cell{
+    width: 125px;
+    height: 125px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 125px;
+    font-size: 80px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow:
+    -1px -1px 0 #A8703F,
+    1px -1px 0 #A8703F,
+    -1px 1px 0 #A8703F,
+    1px 1px 0 #A8703F; 
+    text-align: center;
+    align-items: center;
+}
+#cellContainer{
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+body{
+    background-image: url(https://data.whicdn.com/images/343232552/original.gif);
+    background-size: cover;
+
+}
+button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    border: transparent;
+    font-size: 40px;
+    color:#ffffff;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  ;
+    cursor: pointer;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    text-align: center;
+    color: #E4B332;
+    text-shadow:
+    -3px -3px 0 #683B1C,
+    3px -3px 0 #683B1C,
+    -3px 3px 0 #683B1C,
+    3px 3px 0 #683B1C; 
+}
+#statusText{
+    font-size: 50px;
+}
