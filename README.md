@@ -17,4 +17,4 @@
 [Pure and Simple - Tic Tac Toe with Javascript](https://dev.to/bornasepic/pure-and-simple-tic-tac-toe-with-javascript-4pgn)
 
 ## Live Site
-[]
+[Tic-Tac-Toe Game](https://walawak.github.io/tictactoe/)
